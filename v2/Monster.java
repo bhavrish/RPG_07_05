@@ -4,6 +4,6 @@ public class Monster extends Character{
             life = 150;
             strength = (int)Math.random() * 45 + 20;
             defense = 20;
-            attack = 1; 
+            attack = 3; 
         }
     }

@@ -2,7 +2,7 @@ public class Character{
     protected int life; 
     protected int strength;
     protected int defense;
-    protected double attackRating;
+    protected double attack;
 
     public boolean isAlive(){
         return life > 0;
@@ -17,6 +17,6 @@ public class Character{
     }
 
     public int attack(Character role){
-        int damage = (strength * attackRating) - role.defense;
+        int damage = (strength * attack) - role.defense;
         return damage;
 }

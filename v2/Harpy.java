@@ -5,5 +5,7 @@ public class Harpy extends Protagonist{
         defense = 50; 
     }
     
-    super.toString(). 
+    public String toString() {
+        return super.toString();
+    } 
     }

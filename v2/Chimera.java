@@ -5,5 +5,7 @@ public class Chimera extends Protagonist{
         attack = 10; 
     }
     
-    super.toString(). 
+    public String toString() {
+        return super.toString();
+    } 
     }

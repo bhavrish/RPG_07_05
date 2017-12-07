@@ -1,4 +1,6 @@
 public class Warrior extends Monster{
     
-    super.toString(). 
+    public String toString() {
+        return super.toString();
+    } 
     }

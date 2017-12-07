@@ -5,5 +5,7 @@ public class Mage extends Protagonist{
         strength = 150; 
     }
     
-    super.toString(). 
+    public String toString() {
+        return super.toString();
+    } 
     }

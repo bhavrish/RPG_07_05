@@ -1,4 +1,4 @@
-public class Protagonist extends Character{
+public abstract class Protagonist extends Character{
     private String name; 
 
     public Protagonist(String n){

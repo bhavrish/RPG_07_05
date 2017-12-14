@@ -1,7 +1,7 @@
 public class Assassin extends Monster{
    
-    public String toString() {
+     public String toString() {
         return super.toString();
-    }
+	}
     
     }

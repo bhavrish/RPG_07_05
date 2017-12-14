@@ -24,5 +24,5 @@ public class Protagonist extends Character{
         attack -= 5; 
     }
     
-    public abstract String toString(); 
+    public abstract String toString(); //Protagonist is not abstract and does not override abstract method toString() in Protagonist
     }
